@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         TwImage:large
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/meto4d/twitter-scripts/
 // @version      0.1
 // @description  redirect to twitter image:large
 // @author       Ruth
