@@ -4,6 +4,7 @@
 // @version      0.1
 // @description  image URLs extracted on the tweet
 // @author       Ruth
+// @match        https://twitter.com/*/status/*
 // @match        https://twitter.com/*/status/*/photo/1
 // @include      https://twitter.com/*/status/*/photo/1
 // @grant        none
