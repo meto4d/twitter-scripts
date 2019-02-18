@@ -15,9 +15,13 @@
     setTimeout(link, 0);
 
     function link(){
-        var re = new RegExp('https?://pbs.twimg.com/media/.*\.(jpg|png|gif|webp)$');
+        var re = new RegExp('https?://pbs.twimg.com/media/.*\.(jpg|png|gif|webp)(:thumb)?$');
         if (re.test(location.href) ) {
-            location.href+=':large';
+            if(location.href.match(/:thumb$/)){
+                location.href = location.href.replace(":thumb", ":large");
+            } else {
+                location.href+=':large';
+            }
         }
     }
 })();
